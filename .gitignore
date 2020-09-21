@@ -1,0 +1,9 @@
+/.vscode/
+__pycache__/
+migrations/
+/venv/
+emailData.py
+/.scannerwork
+/sonar-project.properties
+/settings/dev-local.py
+/manage2.py

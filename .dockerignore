@@ -1,0 +1,7 @@
+.git
+__pycache__/
+.vscode
+venv
+.scannerwork
+sonar-project.properties
+db.sqlite3
