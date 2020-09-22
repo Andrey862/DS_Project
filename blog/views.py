@@ -18,6 +18,13 @@ def home(request):
         'hostname': socket.gethostname()
     }
     return render(request, 'blog/home.html', context)
+	
+	
+def demo(request):
+    context = {
+        'hostname': socket.gethostname()
+    }
+    return render(request, 'blog/demo.html', context)
 
 
 class PostListView(ListView):
